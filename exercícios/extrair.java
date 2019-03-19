@@ -8,7 +8,7 @@ public class extrair {
     float dadoLido = scanner.nextFloat();
 
     int parteInteira = 0;
-    while ( dadoLido > 0 ) {
+    while ( dadoLido >= 1 ) {
         dadoLido = dadoLido - 1;
         parteInteira = parteInteira + 1;
     }
@@ -17,6 +17,6 @@ public class extrair {
     System.out.println(parteInteira);
 
     System.out.print("parteDecimaql: ");
-    System.out.println(dadoLido+1);
+    System.out.println(dadoLido);
   }
 }
