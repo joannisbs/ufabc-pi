@@ -5,7 +5,7 @@ Faca um programa java que leia uma matrix 5x5 e:
 - imprima somente a diagonal principal
 - Imprima todos os elementos abaixo da diagonal principal (inclusive ela)
 - Imprima todos os elementos acima da diagonal principal (inclusive ela)
-Joannis Basile Stavrakas
+Joannis Basile Stavrakas Professor Isidro
 */
 
 
@@ -23,6 +23,7 @@ public class imprimiMatriz {
         matriz[linha][coluna] = s.nextInt();
       }
     }
+    s.close();
 
     for(int linha = 0; linha < 5; linha++ ){
       for(int coluna = 0; coluna < 5; coluna++ ){
